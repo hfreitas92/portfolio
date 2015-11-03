@@ -181,7 +181,7 @@ module.exports = function (grunt) {
                 options: {
                     watchTask: true,
                     // fill in proxy address of local WP server
-                    proxy: ""
+                    proxy: "hyanfreitas.com:8888"
                 }
             }
         }
