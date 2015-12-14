@@ -32,6 +32,7 @@ $tuatara     : #444444;
 $oil         : #333333;
 $jet         : #222222;
 $black       : #000000;
+$greeny      : #43AC6A;
 
 // We use these as default colors throughout
 $primary-color: #43AC6A;
@@ -47,21 +48,24 @@ $body-font-color: $jet;
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-normal;
 $body-font-style: normal;
-$header-font-weight: 300;
+$header-font-weight: 30;
 $header-text-rendering: optimizeLegibility;
 
 // Set the link colors and styles for top-level nav
+$topbar-link-bg: $white;
 $topbar-link-weight: bold;
-$topbar-link-color: $white;
+$topbar-link-color: $greeny;
 $topbar-link-color-hover: $white;
 $topbar-link-color-active: $white;
 $topbar-link-color-active-hover: $white;
 
+
+
 //$topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: $jet;
+$topbar-bg-color: rgba(255,255,255,0);
+$topbar-link-bg-hover: $greeny;
 $topbar-link-bg-color-hover: $jet;
-$topbar-link-bg-active: $jet;
-$topbar-link-bg-active-hover: scale-color($jet, $lightness: -14%);
+$topbar-link-bg-active: $greeny;
 
 // Media query breakpoints
 $small-breakpoint:  em-calc(640);
@@ -69,3 +73,7 @@ $medium-breakpoint: em-calc(1024);
 $topbar-breakpoint: em-calc(820);
 $large-breakpoint:  em-calc(1440);
 $xlarge-breakpoint: em-calc(1920);
+
+//tests
+
+
